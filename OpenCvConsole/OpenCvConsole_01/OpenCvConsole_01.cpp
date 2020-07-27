@@ -1,10 +1,10 @@
+// Hello....
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
 int main(int argc, char* argv[]) {
     printf("Hello world\n");
-    // Read an image
-    // (in Brown, use ¡°C:/sw/opencv/sources/samples/data/lena.jpg¡±)
+    // Read an image 
     cv::Mat image = cv::imread("C:/opencv/samples/data/lena.jpg");
     if (image.empty()) {
         std::cout << "Hey! Can't read the image!" << std::endl;
